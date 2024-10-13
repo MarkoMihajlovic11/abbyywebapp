@@ -22,24 +22,24 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eliot/Documents/GitHub/abbyywebapp/ProductManager/ProductManager/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/eliot/Documents/GitHub/abbyywebapp/ProductManager/ProductManager/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eliot/Documents/GitHub/abbyywebapp/ProductManager/ProductManager/Views/Products/Create.cshtml.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbC5jc2h0bWw=
+[C:/Users/eliot/Documents/GitHub/abbyywebapp/ProductManager/ProductManager/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eliot/Documents/GitHub/abbyywebapp/ProductManager/ProductManager/Views/Products/Details.cshtml.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWwuY3NodG1s
+[C:/Users/eliot/Documents/GitHub/abbyywebapp/ProductManager/ProductManager/Views/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eliot/Documents/GitHub/abbyywebapp/ProductManager/ProductManager/Views/Products/Edit.cshtml.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWwuY3NodG1s
+[C:/Users/eliot/Documents/GitHub/abbyywebapp/ProductManager/ProductManager/Views/Products/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eliot/Documents/GitHub/abbyywebapp/ProductManager/ProductManager/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/eliot/Documents/GitHub/abbyywebapp/ProductManager/ProductManager/Views/Products/Index.cshtml]
