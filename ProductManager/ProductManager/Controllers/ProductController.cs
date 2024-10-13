@@ -105,7 +105,7 @@ namespace ProductManager.Controllers
                 return NotFound();
             }
 
-            return View(product);
+            return View(product); 
         }
 
         // POST: Products/Delete/5
@@ -114,8 +114,12 @@ namespace ProductManager.Controllers
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var product = await _context.Products.FindAsync(id);
-            _context.Products.Remove(product);
-            await _context.SaveChangesAsync();
+            if (product != null)
+            {
+                _context.Products.Remove(product);
+                await _context.SaveChangesAsync();
+            }
+
             return RedirectToAction(nameof(Index));
         }
 
