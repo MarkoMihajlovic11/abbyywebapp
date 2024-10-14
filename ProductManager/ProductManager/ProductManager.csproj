@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-ProductManager-52f42654-6051-4fff-a05b-10280ee43fd4</UserSecretsId>
+	  <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
