@@ -104,7 +104,6 @@ namespace ProductManagerTests
             existingProduct.Name = "Updated Product 7";
             existingProduct.Price = 30;
             existingProduct.Description = "Updated Description 7";
-            //var updatedProduct = new Product { Id = 7, Name = "Updated Product 7", Price = 15, Description = "Updated Description 7" };
 
             // Act
             var result = await _controller.UpdateProduct(7, existingProduct);
@@ -134,7 +133,6 @@ namespace ProductManagerTests
         public async Task DeleteProduct_RemovesProduct_WhenIdExists()
         {
             // Arrange
-           // var existingProduct = await _context.Products.FirstOrDefaultAsync(p => p.Id == 1);
             var existingProduct = new Product { Id = 6, Name = "Product 6", Price = 10, Description = "Description 6" };
             await _context.Products.AddAsync(existingProduct);
             await _context.SaveChangesAsync();

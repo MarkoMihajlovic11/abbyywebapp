@@ -84,7 +84,7 @@ namespace ProductManagerTests
         public async Task Details_ReturnsNotFound_WhenProductNotFound()
         {
             // Act
-            var result = await _controller.Details(99); // Product with Id 99 doesn't exist
+            var result = await _controller.Details(99); 
 
             // Assert
             Assert.IsType<NotFoundResult>(result);
@@ -103,7 +103,6 @@ namespace ProductManagerTests
             var redirectToActionResult = Assert.IsType<RedirectToActionResult>(result);
             Assert.Equal("Index", redirectToActionResult.ActionName);
 
-            // Ensure the product was added to the in-memory database
             Assert.Equal(3, _context.Products.Count());
         }
 
@@ -135,7 +134,7 @@ namespace ProductManagerTests
         public async Task Edit_ReturnsNotFound_WhenProductNotFound()
         {
             // Act
-            var result = await _controller.Edit(99); // Product with Id 99 doesn't exist
+            var result = await _controller.Edit(99); 
 
             // Assert
             Assert.IsType<NotFoundResult>(result);
